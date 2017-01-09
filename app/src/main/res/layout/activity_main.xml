@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <mahmoud.footballcalendar.Classes.AutoImageFlipper
+        android:id="@+id/autoImageFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:scrollbars="none"
+        android:background="#49cc5544"
+        >
+        <LinearLayout
+            android:id="@+id/linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/chelsea"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/chelsealogo"
+                android:layout_marginLeft="5dp"
+                />
+            <ImageView
+                android:id="@+id/manutd"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/manchesterlogo"
+                android:layout_marginLeft="25dp"
+                />
+            <ImageView
+                android:id="@+id/arsenal"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/arsenallogo"
+                android:layout_marginLeft="25dp"
+                />
+            <ImageView
+                android:id="@+id/barcelona"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/barcelonalogo"
+                android:layout_marginLeft="25dp"
+                />
+            <ImageView
+                android:id="@+id/realmadrid"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/realmadridlogo"
+                android:layout_marginLeft="25dp"
+                />
+            <ImageView
+                android:id="@+id/bayern"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/bayernlogo"
+                android:layout_marginLeft="25dp"
+                />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+</RelativeLayout>
